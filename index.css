@@ -9,7 +9,7 @@ html, body {
 }
 body {
     margin: 0;
-    background-color: rgba(51, 45, 45, 0.95);
+    background-color: rgba(51, 45, 45, 0.94);
     transition: background-color 1.5s ease;
     background-blend-mode: overlay;
     background-size: cover;
