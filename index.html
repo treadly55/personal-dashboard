@@ -1,0 +1,70 @@
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Personal Dashboard</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant:ital,wght@0,300;1,300;1,400&family=Inter:wght@300;400;500;600;700;800&display=swap');
+            </style>
+            <link rel="stylesheet" href="index.css">
+        </head>
+        <body>
+            <main>    
+                <div class="top">
+                    <div class="trivia">
+                        <div class="trivia-wrapper">
+                            <p class="trivia-title">Today's Trivia</p>
+                            <p id="trivia-question">Loading new question 🐢</p>
+                            <div class="flip-container">
+                                <div class="flipper">
+                                    <div class="front-text">Click to reveal</div>
+                                    <div class="back-text" id="trivia-answer"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="weather-no-geo">
+                        <div class="weather-error">
+                            <i class="fa-solid fa-spinner error-icon rotate-icon"></i>
+                            <p>Geolocation required!</p>
+                            <button id="geo-retry" type="button">Retry</button>
+                        </div>
+                    </div>
+
+                    <div class="weather-align" id="weather-align">
+                        <div id="weather" class="weather">
+                            <div class="weather-details">
+                                <p class="weather-temp"></p>
+                                <p class="weather-city"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="middle">
+                    <h1 id="time" class="time"></h1>
+                    <h2>"<span id="quotes">Quotes</span>"</h2>
+                    <h3 id="quote-author">Author:</h3>
+                </div>
+
+                <div class="bottom-row">
+                    <div class="photo-details">
+                    <div id="photo-author"></div>
+                </div>
+                <div class="photo-button">
+                    <button type="button" id="photoOnlyBtn">Photo only mode</button>
+                </div>
+                <div class="joke-section">
+                    <div class="joke-wrapper">
+                        <p id="joke-header">😂 Joke of the day 😂</p>
+                        <p id="joke"></p>
+                        <p id="punchline"></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
