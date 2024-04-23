@@ -40,4 +40,5 @@ This project is ongoing
 
 ## Like this project?
 
-If you are feeling generous, buy me a coffee! - https://www.buymeacoffee.com/chriswild_design
+If you enjoyed this project, buy me a coffee! - https://buymeacoffee.com/chriswild_design
+
