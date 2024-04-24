@@ -36,7 +36,7 @@ If you found an issue or would like to submit an improvement to this project, pl
 
 ## Known issues (Work in progress)
 
-This project is ongoing 
+Fading in/out the modules relies on the last DOM element. If the last DOM element is changed or renamed this will break the fade in/out. The author is open to ideas on how to remedy this.
 
 ## Like this project?
 
